@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fizz Buzz App</title>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<h1>FizzBuzz App</h1>
+	<p>Enter an integer that is 1 - 1000, then hit <strong>Enter</strong>. Numbers will be printed out, including the number you entered, with a few exceptions:</p>
+	<ul>
+		<li><strong>Numbers divisible by 3 will be replaced with <em>Fizz</em>.</strong></li>
+		<li><strong>Numbers divisible by 5 will be replaced with <em>Buzz</em>.</strong></li>
+		<li><strong>Numbers divisible by 3 and 5 will be replaced with <em>Fizz Buzz</em>.</strong></li>
+	</ul>
+	<form id="enter-your-number">
+		<fieldset>
+			<p><input placeholder="Enter a number" type="text" id="enter-number-field" autocomplete="off" /></p>
+			<p id="messageoutput"></p>
+			<button id="reset-number">Reset Number</button>
+		</fieldset>
+	</form>
+</body>
+</html>
